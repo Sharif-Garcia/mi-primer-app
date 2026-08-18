@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ent-001",
+    "estudianteId": "est-2021145",
+    "operadorId": "op-003",
+    "material": { "tipo": "plastico", "pesoKg": 2.5 },
+    "puntoAcopio": "Bloque C - UPC",
+    "observaciones": "Botellas PET compactadas, entregadas en bolsa transparente.",
+    "creadoEn": "2026-08-10T14:20:00Z",
+    "estado": { "tipo": "registrada", "registradaEn": "2026-08-10T14:20:00Z" }
+  },
+  {
+    "id": "ent-002",
+    "estudianteId": "est-2019087",
+    "operadorId": "op-001",
+    "material": { "tipo": "carton", "pesoKg": 4.1 },
+    "puntoAcopio": "Bloque A - UPC",
+    "creadoEn": "2026-08-11T15:45:00Z",
+    "estado": {
+      "tipo": "puntos_asignados",
+      "puntosOtorgados": 41,
+      "asignadoEn": "2026-08-11T16:00:00Z"
+    }
+  },
+  {
+    "id": "ent-003",
+    "estudianteId": "est-2022310",
+    "operadorId": "op-003",
+    "material": { "tipo": "vidrio", "pesoKg": 1.0 },
+    "puntoAcopio": "Bloque C - UPC",
+    "observaciones": "Frascos sin etiqueta, mezclados con basura común.",
+    "creadoEn": "2026-08-12T13:10:00Z",
+    "estado": {
+      "tipo": "rechazada",
+      "motivo": "El material llegó mezclado con residuos no reciclables."
+    }
+  }
+]
